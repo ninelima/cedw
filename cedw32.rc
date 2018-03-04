@@ -1,0 +1,1081 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#define APSTUDIO_HIDDEN_SYMBOLS
+#include "windows.h"
+#undef APSTUDIO_HIDDEN_SYMBOLS
+#include "cedw.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+YESNOFILEDLG DIALOG DISCARDABLE  40, 14, 196, 64
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+FONT 8, "MS Sans Serif"
+BEGIN
+    ICON            32515,DID_NULL,8,8,20,20
+    LTEXT           "",IDC_YESNO_FILENAME,38,10,1000,8
+    LTEXT           "",IDC_YESNO_MSG,38,26,152,8
+    DEFPUSHBUTTON   "&Yes",IDC_YESNO_YES,90,44,48,14
+    PUSHBUTTON      "&No",IDC_YESNO_NO,142,44,48,14
+END
+
+HELPFILESDLG DIALOG DISCARDABLE  0, 0, 282, 146
+STYLE WS_CHILD | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "Help Files"
+FONT 8, "MS Sans Serif"
+BEGIN
+    COMBOBOX        IDC_HELPFILES_LANGUAGE,62,22,104,82,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_GROUP | WS_TABSTOP
+    LTEXT           "Language:",DID_NULL,22,24,40,8
+    EDITTEXT        IDC_HELPFILES_FILENAME,62,37,193,12,ES_AUTOHSCROLL
+    LTEXT           "Help File:",DID_NULL,22,39,34,10
+    PUSHBUTTON      "...",IDC_HELPFILES_LIST,258,37,14,13
+    LTEXT           "A help file can be associated with each language for keyword help:",
+                    DID_NULL,6,8,266,11
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    "YESNOFILEDLG", DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 190
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 59
+    END
+
+    "HELPFILESDLG", DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 275
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 139
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) (unknown sub-lang: 0x7) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENS)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, 0x7
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+OKSTOPDLG DIALOG DISCARDABLE  40, 14, 196, 56
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+FONT 8, "MS Sans Serif"
+BEGIN
+    ICON            32513,DID_NULL,8,8,20,20
+    LTEXT           "",IDC_OK_MSG,38,14,165,8
+    PUSHBUTTON      "OK",DID_OK,142,36,48,14
+END
+
+OKDLG DIALOG DISCARDABLE  40, 14, 196, 56
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+FONT 8, "MS Sans Serif"
+BEGIN
+    ICON            32515,DID_NULL,8,8,20,20
+    LTEXT           "",IDC_OK_MSG,38,14,165,8
+    PUSHBUTTON      "OK",DID_OK,142,36,48,14
+END
+
+OKINFODLG DIALOG DISCARDABLE  40, 14, 196, 56
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+FONT 8, "MS Sans Serif"
+BEGIN
+    ICON            32516,DID_NULL,8,8,20,20
+    LTEXT           "",IDC_OK_MSG,38,14,165,8
+    PUSHBUTTON      "OK",DID_OK,142,36,48,14
+END
+
+YESNODLG DIALOG DISCARDABLE  40, 14, 196, 56
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+FONT 8, "MS Sans Serif"
+BEGIN
+    ICON            32515,DID_NULL,8,8,20,20
+    LTEXT           "",IDC_YESNO_MSG,38,14,164,8
+    DEFPUSHBUTTON   "&Yes",IDC_YESNO_YES,90,36,48,14
+    PUSHBUTTON      "&No",IDC_YESNO_NO,142,36,48,14
+END
+
+YESNOCANDLG DIALOG DISCARDABLE  40, 14, 196, 56
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+FONT 8, "MS Sans Serif"
+BEGIN
+    ICON            32515,DID_NULL,8,8,20,20
+    LTEXT           "",IDC_YESNO_MSG,38,14,164,8
+    DEFPUSHBUTTON   "&Yes",IDC_YESNO_YES,38,36,48,14
+    PUSHBUTTON      "&No",IDC_YESNO_NO,90,36,48,14
+    PUSHBUTTON      "Cancel",DID_CANCEL,142,36,48,14
+END
+
+YESNOCANFILEDLG DIALOG DISCARDABLE  40, 14, 196, 64
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+FONT 8, "MS Sans Serif"
+BEGIN
+    ICON            32515,DID_NULL,8,8,20,20
+    LTEXT           "",IDC_YESNO_FILENAME,38,10,1000,8
+    LTEXT           "",IDC_YESNO_MSG,38,26,164,8
+    DEFPUSHBUTTON   "&Yes",IDC_YESNO_YES,38,44,48,14
+    PUSHBUTTON      "&No",IDC_YESNO_NO,90,44,48,14
+    PUSHBUTTON      "Cancel",DID_CANCEL,142,44,48,14
+END
+
+YESNOALLDLG DIALOG DISCARDABLE  40, 14, 222, 56
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+FONT 8, "MS Sans Serif"
+BEGIN
+    ICON            32514,DID_NULL,8,8,20,20
+    LTEXT           "",IDC_YESNOALL_MSG,38,14,164,8
+    DEFPUSHBUTTON   "&Yes",IDC_YESNOALL_YES,12,36,48,14
+    PUSHBUTTON      "&No",IDC_YESNOALL_NO,64,36,48,14
+    PUSHBUTTON      "&All",IDC_YESNOALL_ALL,116,36,48,14
+    PUSHBUTTON      "Cancel",DID_CANCEL,168,36,48,14
+END
+
+YESNOALLFILEDLG DIALOG DISCARDABLE  40, 14, 222, 56
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+FONT 8, "MS Sans Serif"
+BEGIN
+    ICON            32515,DID_NULL,8,8,20,20
+    LTEXT           "",IDC_YESNOALL_MSG,38,14,164,8
+    DEFPUSHBUTTON   "&Yes",IDC_YESNOALL_YES,12,36,48,14
+    PUSHBUTTON      "&No",IDC_YESNOALL_NO,64,36,48,14
+    PUSHBUTTON      "&All",IDC_YESNOALL_ALL,116,36,48,14
+    PUSHBUTTON      "Cancel",DID_CANCEL,168,36,48,14
+END
+
+OKCANDLG DIALOG DISCARDABLE  40, 14, 196, 56
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+FONT 8, "MS Sans Serif"
+BEGIN
+    ICON            32515,DID_NULL,8,8,20,20
+    LTEXT           "",IDC_OKCAN_MSG,38,14,164,8
+    DEFPUSHBUTTON   "OK",DID_OK,90,36,48,14
+    PUSHBUTTON      "Cancel",DID_CANCEL,142,36,48,14
+END
+
+OKCANFILEDLG DIALOG DISCARDABLE  40, 14, 196, 64
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+FONT 8, "MS Sans Serif"
+BEGIN
+    ICON            32515,DID_NULL,8,8,20,20
+    LTEXT           "",IDC_OKCAN_FILENAME,38,10,1000,22
+    LTEXT           "",IDC_OKCAN_MSG,38,26,164,8
+    DEFPUSHBUTTON   "OK",DID_OK,90,44,48,14
+    PUSHBUTTON      "Cancel",DID_CANCEL,142,44,48,14
+END
+
+OKCANALLDLG DIALOG DISCARDABLE  40, 14, 196, 56
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+FONT 8, "MS Sans Serif"
+BEGIN
+    ICON            32515,DID_NULL,8,8,20,20
+    LTEXT           "",IDC_OKCANALL_MSG,38,14,164,8
+    DEFPUSHBUTTON   "OK",DID_OK,38,36,48,14
+    PUSHBUTTON      "&All",IDC_OKCANALL_ALL,90,36,48,14
+    PUSHBUTTON      "Cancel",DID_CANCEL,142,36,48,14
+END
+
+PRINTCANDLG DIALOG DISCARDABLE  40, 14, 196, 56
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+FONT 8, "MS Sans Serif"
+BEGIN
+    ICON            32515,DID_NULL,8,8,20,20
+    LTEXT           "",IDC_PRINTCAN_FILENAME,38,14,1000,8
+    PUSHBUTTON      "Cancel",DID_CANCEL,142,36,48,14
+END
+
+ERRDLG DIALOG DISCARDABLE  40, 14, 196, 56
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "Error"
+FONT 8, "MS Sans Serif"
+BEGIN
+    ICON            32513,DID_NULL,8,8,20,20
+    LTEXT           "",IDC_ERR_MSG,38,14,164,8
+    PUSHBUTTON      "OK",DID_OK,142,36,48,14
+END
+
+ERRFILEDLG DIALOG DISCARDABLE  40, 14, 196, 64
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "File Error"
+FONT 8, "MS Sans Serif"
+BEGIN
+    ICON            32513,DID_NULL,8,8,20,20
+    LTEXT           "",IDC_ERR_FILENAME,38,10,1000,22
+    LTEXT           "",IDC_ERR_MSG,38,26,1000,8
+    PUSHBUTTON      "OK",DID_OK,142,44,48,14
+END
+
+FILEDLG DIALOG DISCARDABLE  40, 14, 255, 61
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "File Name",DID_NULL,6,8,44,8
+    COMBOBOX        IDC_FILE_NAME,6,18,228,80,CBS_DROPDOWN | CBS_AUTOHSCROLL | 
+                    WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "...",IDC_FILE_LIST,236,18,14,13
+    DEFPUSHBUTTON   "Ok",DID_OK,149,41,48,14
+    PUSHBUTTON      "Cancel",DID_CANCEL,201,41,48,14
+END
+
+FILLDLG DIALOG DISCARDABLE  32, 32, 160, 63
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "Fill/Set Selection"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "Fill/Set char(s)",DID_NULL,6,8,146,8
+    EDITTEXT        IDC_FILL_CHAR,6,20,148,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "Cancel",DID_CANCEL,106,43,48,14
+    DEFPUSHBUTTON   "Ok",DID_OK,54,43,48,14
+END
+
+FINDDLG DIALOG DISCARDABLE  40, 14, 194, 85
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "Find"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "Find:",DID_NULL,6,11,20,8
+    COMBOBOX        IDC_FIND_FIND,26,9,162,78,CBS_DROPDOWN | WS_VSCROLL | 
+                    WS_TABSTOP
+    CONTROL         "&Word",IDC_FIND_WORD,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,12,30,60,10
+    CONTROL         "&Match Case",IDC_FIND_CASE,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,12,44,60,10
+    CONTROL         "F&unction",IDC_FIND_FUNC,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,12,58,60,10
+    CONTROL         "&Next",IDC_FIND_FORWARD,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP,76,30,60,10
+    CONTROL         "&Previous",IDC_FIND_BACKWARD,"Button",
+                    BS_AUTORADIOBUTTON,76,44,60,10
+    CONTROL         "&First",IDC_FIND_ALL,"Button",BS_AUTORADIOBUTTON,76,58,
+                    60,10
+    CONTROL         "&All Files",IDC_FIND_ALLFILES,"Button",BS_AUTOCHECKBOX | 
+                    WS_GROUP | WS_TABSTOP,140,30,48,10
+    DEFPUSHBUTTON   "Ok",DID_OK,140,47,48,14,WS_GROUP
+    PUSHBUTTON      "Cancel",DID_CANCEL,140,65,48,14
+END
+
+REPLACEDLG DIALOG DISCARDABLE  40, 14, 194, 101
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "Find and Replace"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "Find:",DID_NULL,18,11,18,8
+    COMBOBOX        IDC_REPLACE_FIND,38,9,150,78,CBS_DROPDOWN | WS_VSCROLL | 
+                    WS_TABSTOP
+    LTEXT           "Replace:",DID_NULL,6,27,28,8
+    COMBOBOX        IDC_REPLACE_REPLACE,38,25,150,78,CBS_DROPDOWN | 
+                    WS_VSCROLL | WS_TABSTOP
+    CONTROL         "&Word",IDC_REPLACE_WORD,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,12,46,60,10
+    CONTROL         "&Match Case",IDC_REPLACE_CASE,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,12,60,60,10
+    CONTROL         "F&unction",IDC_REPLACE_FUNC,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,12,74,60,10
+    CONTROL         "&Forward",IDC_REPLACE_FORWARD,"Button",
+                    BS_AUTORADIOBUTTON | WS_GROUP,76,46,60,10
+    CONTROL         "A&ll",IDC_REPLACE_ALL,"Button",BS_AUTORADIOBUTTON,76,60,
+                    60,10
+    CONTROL         "&Selection",IDC_REPLACE_MARK,"Button",
+                    BS_AUTORADIOBUTTON,76,74,60,10
+    CONTROL         "&All Files",IDC_REPLACE_ALLFILES,"Button",
+                    BS_AUTOCHECKBOX | WS_GROUP | WS_TABSTOP,140,46,48,10
+    DEFPUSHBUTTON   "Ok",DID_OK,140,63,48,14
+    PUSHBUTTON      "Cancel",DID_CANCEL,140,81,48,14
+END
+
+GOTODLG DIALOG DISCARDABLE  40, 14, 200, 66
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "Go To"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "Line:",DID_NULL,6,10,16,8
+    EDITTEXT        IDC_GOTO_LINE,24,8,60,12,ES_AUTOHSCROLL
+    LTEXT           "File:",DID_NULL,6,26,16,8
+    COMBOBOX        IDC_GOTO_FILE,24,24,170,80,CBS_DROPDOWNLIST | WS_VSCROLL | 
+                    WS_TABSTOP
+    PUSHBUTTON      "Cancel",DID_CANCEL,146,46,48,14
+    DEFPUSHBUTTON   "Ok",DID_OK,94,46,48,14
+END
+
+COLORDLG DIALOG DISCARDABLE  32, 32, 282, 135
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "Color"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "Normal:",DID_NULL,20,22,25,8
+    COMBOBOX        IDC_COLOR_NORMALFORE,73,20,64,64,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_GROUP | WS_TABSTOP
+    LTEXT           "on",DID_NULL,141,22,10,8
+    COMBOBOX        IDC_COLOR_NORMALBACK,153,20,64,64,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Selected:",DID_NULL,20,37,31,8
+    COMBOBOX        IDC_COLOR_SELECTEDFORE,73,35,64,64,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_GROUP | WS_TABSTOP
+    LTEXT           "on",DID_NULL,141,37,10,8
+    COMBOBOX        IDC_COLOR_SELECTEDBACK,153,35,64,64,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    CONTROL         "Use syntax coloring",IDC_COLOR_SYNTAX,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,20,71,75,10
+    CONTROL         "",DID_NULL,"ceWinSeperatorLine",0x0,50,61,224,2
+    LTEXT           "General",DID_NULL,5,8,25,10
+    CONTROL         "",DID_NULL,"ceWinSeperatorLine",0x0,34,12,240,2
+    LTEXT           "Syntax color",DID_NULL,5,57,40,10
+    COMBOBOX        IDC_COLOR_SELECT,20,90,105,75,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_COLOR_SELFORE,139,90,60,15,CBS_DROPDOWN | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_COLOR_SELBACK,213,90,60,30,CBS_DROPDOWN | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "on",DID_NULL,201,91,10,10
+    CONTROL         "Custom1",IDC_CUSTOM1,"",WS_TABSTOP,185,111,10,9
+    LTEXT           "Foreground:",DID_NULL,140,110,39,8
+END
+
+PRODINFO DIALOG DISCARDABLE  40, 14, 196, 71
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "Product Information"
+FONT 8, "MS Sans Serif"
+BEGIN
+    ICON            "cewicon",DID_NULL,8,8,20,20
+    LTEXT           "",IDC_PRODINFO_NAME,36,10,120,8
+    LTEXT           "",IDC_PRODINFO_COPYRIGHT,36,26,149,19
+    PUSHBUTTON      "OK",DID_OK,142,51,48,14
+END
+
+BOOKMARKS DIALOG DISCARDABLE  40, 14, 276, 135
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "Bookmarks"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "Line",DID_NULL,8,6,14,8
+    LTEXT           "File",DID_NULL,48,6,37,8
+    LISTBOX         IDC_BOOKMARKS_LIST,6,16,264,96,LBS_USETABSTOPS | 
+                    WS_VSCROLL | WS_HSCROLL | WS_TABSTOP
+    DEFPUSHBUTTON   "&Set",IDC_BOOKMARKS_SET,14,115,48,14
+    PUSHBUTTON      "&Clear",IDC_BOOKMARKS_CLEAR,66,115,48,14
+    PUSHBUTTON      "Clear &All",IDC_BOOKMARKS_CLEARALL,118,115,48,14
+    PUSHBUTTON      "&Go To",IDC_BOOKMARKS_GOTO,170,115,48,14
+    PUSHBUTTON      "Cancel",DID_CANCEL,222,115,48,14
+    LTEXT           "Name",DID_NULL,87,6,20,8
+END
+
+GOTOFILEDLG DIALOG DISCARDABLE  40, 14, 240, 135
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "Files"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "No",DID_NULL,6,6,12,8
+    LTEXT           "File Name",DID_NULL,32,6,48,8
+    LISTBOX         IDC_GOTOFILE_LIST,6,16,228,96,LBS_USETABSTOPS | 
+                    WS_VSCROLL | WS_HSCROLL | WS_TABSTOP
+    DEFPUSHBUTTON   "OK",DID_OK,134,115,48,14
+    PUSHBUTTON      "Cancel",DID_CANCEL,186,115,48,14
+END
+
+FORMATOPTIONSDLG DIALOG DISCARDABLE  32, 32, 282, 146
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+FONT 8, "MS Sans Serif"
+BEGIN
+    EDITTEXT        IDC_FILEOPTIONS_TABSIZE,48,21,20,12,ES_AUTOHSCROLL
+    COMBOBOX        IDC_SETINGS_FONTS,48,53,115,80,CBS_DROPDOWNLIST | 
+                    CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_SETINGS_FONTSIZE,194,53,35,80,CBS_DROPDOWNLIST | 
+                    CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_COLOR_SELECT,20,87,105,75,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    CONTROL         "&Syntax Coloring",IDC_COLOR_SYNTAX,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,20,104,75,10
+    CONTROL         "Matching Bracket Hilite",IDC_COLOR_MATCHBRACKET,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,20,119,95,10
+    CONTROL         "",IDC_COLOR_FOREGROUND,"ceWinColorSelect",0x0,137,87,23,
+                    12
+    CONTROL         "",IDC_COLOR_BACKGROUND,"ceWinColorSelect",0x0,137,102,
+                    23,12
+    CONTROL         "Bold",IDC_CHECK1,"Button",BS_AUTOCHECKBOX | WS_DISABLED | 
+                    WS_TABSTOP,217,89,40,10
+    CONTROL         "Default",IDC_COLOR_DEFAULT,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,217,104,60,10
+    PUSHBUTTON      "&Reset Colors",IDC_COLOR_APPLY2,174,127,50,15,NOT 
+                    WS_VISIBLE
+    PUSHBUTTON      "&Apply",IDC_COLOR_APPLY,228,127,50,15
+    PUSHBUTTON      "Fonts",IDC_EDITOPTIONS_FONT,225,20,50,15,NOT WS_VISIBLE
+    LTEXT           "&Size:",DID_NULL,21,23,20,8
+    LTEXT           "(1-20)",DID_NULL,75,23,20,8
+    LTEXT           "Tabs",DID_NULL,5,8,20,10
+    CONTROL         "",DID_NULL,"ceWinSeperatorLine",0x0,28,12,246,2
+    LTEXT           "Font",DID_NULL,5,40,20,10
+    CONTROL         "",DID_NULL,"ceWinSeperatorLine",0x0,26,44,248,2
+    CONTROL         "",DID_NULL,"ceWinSeperatorLine",0x0,28,78,246,2
+    LTEXT           "Color",DID_NULL,5,74,20,10
+    LTEXT           "Foreground",DID_NULL,165,90,45,10,NOT WS_GROUP | 
+                    WS_TABSTOP
+    LTEXT           "Background",DID_NULL,165,105,45,10,NOT WS_GROUP | 
+                    WS_TABSTOP
+    LTEXT           "&Size:",DID_NULL,174,55,16,8
+    LTEXT           "Name:",DID_NULL,21,55,21,10
+END
+
+FILEOPTIONS DIALOG DISCARDABLE  32, 32, 282, 130
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "File Settings"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "&Startup Directory:",DID_NULL,21,23,57,8
+    EDITTEXT        IDC_FILEOPTIONS_DIRECTORY,79,21,191,12,ES_AUTOHSCROLL
+    CONTROL         "&Restore last working directory on startup",
+                    IDC_FILEOPTIONS_RESTOREDIR,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,21,37,204,10
+    LTEXT           "&Expand tabs to spaces on file read:",DID_NULL,21,69,
+                    115,8
+    EDITTEXT        IDC_FILEOPTIONS_TABSIZE,140,67,20,12,ES_AUTOHSCROLL
+    LTEXT           "(1-20)",DID_NULL,163,69,20,8
+    LTEXT           "&Default File Format:",DID_NULL,21,84,64,8
+    COMBOBOX        IDC_FILEOPTIONS_FILETYPE,87,81,87,64,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_GROUP | WS_TABSTOP
+    CONTROL         "&Test for external modified on file select or focus",
+                    IDC_FILEOPTIONS_CHECKMOD,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,21,115,174,10
+    LTEXT           "Startup",DID_NULL,5,8,25,10
+    LTEXT           "Format",DID_NULL,5,55,25,10
+    LTEXT           "Notify",DID_NULL,5,102,25,10
+    CONTROL         "",DID_NULL,"ceWinSeperatorLine",0x0,35,12,240,2
+    CONTROL         "",DID_NULL,"ceWinSeperatorLine",0x0,35,59,240,2
+    CONTROL         "",DID_NULL,"ceWinSeperatorLine",0x0,34,105,240,2
+END
+
+EDITOPTIONS DIALOG DISCARDABLE  32, 32, 282, 146
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Windows Settings"
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "&Restore last size and position on startup",
+                    IDC_EDITOPTIONS_POSITION,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,21,20,144,10
+    CONTROL         "Allow &multiple instances",IDC_EDITOPTIONS_INSTANCE,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,21,35,96,10
+    CONTROL         "&Explorer style file browse dialog",
+                    IDC_EDITOPTIONS_EXPLORER,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,21,50,124,10
+    CONTROL         "&Ignore mouse click position on focus",
+                    IDC_EDITOPTIONS_MOUSEPOS,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,21,65,149,10
+    CONTROL         "&Title Bar",IDC_EDITOPTIONS_FNTITLE,"Button",
+                    BS_AUTORADIOBUTTON | WS_GROUP | WS_TABSTOP,169,109,51,10
+    CONTROL         "&Status Bar",IDC_EDITOPTIONS_FNSTATUS,"Button",
+                    BS_AUTORADIOBUTTON,169,124,51,10
+    CONTROL         "&Horizontal Scroll Bar",IDC_EDITOPTIONS_HSCROLLBAR,
+                    "Button",BS_AUTOCHECKBOX | WS_DISABLED | WS_TABSTOP,21,
+                    92,115,15
+    CONTROL         "&Vertical Scroll Bar",IDC_EDITOPTIONS_VSCROLLBAR,"Button",
+                    BS_AUTOCHECKBOX | WS_DISABLED | WS_TABSTOP,21,107,120,15
+    CONTROL         "&File/Member Tree",IDC_EDITOPTIONS_FILETREE,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,21,122,120,15
+    LTEXT           "General",DID_NULL,5,8,25,10
+    CONTROL         "",DID_NULL,"ceWinSeperatorLine",0x0,34,12,240,2
+    LTEXT           "Layout",DID_NULL,5,82,25,10
+    CONTROL         "",DID_NULL,"ceWinSeperatorLine",0x0,34,86,240,2
+    LTEXT           "Show file name on:",DID_NULL,151,95,65,10
+END
+
+HELPKEYS DIALOG DISCARDABLE  40, 14, 300, 123
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Keyboard Help"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LISTBOX         IDC_HELPKEYS_LIST,0,0,300,123,LBS_USETABSTOPS | 
+                    LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+END
+
+FILEPROPERTIES DIALOG DISCARDABLE  40, 14, 262, 130
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "File Properties"
+FONT 8, "MS Sans Serif"
+BEGIN
+    COMBOBOX        IDC_ASSOC_DEFAULT,46,24,104,82,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_GROUP | WS_TABSTOP
+    CONTROL         "Set as default language for this file type",
+                    IDC_ASSOC_SAVE,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,46,
+                    43,139,10
+    COMBOBOX        IDC_PROPS_FILETYPE,46,60,104,64,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_GROUP | WS_TABSTOP
+    CONTROL         "Read only",IDC_ASSOC_RDONLY,"Button",BS_AUTOCHECKBOX | 
+                    NOT WS_VISIBLE | WS_DISABLED | WS_TABSTOP,160,61,49,10
+    DEFPUSHBUTTON   "OK",DID_OK,156,110,48,14
+    PUSHBUTTON      "Cancel",DID_CANCEL,208,110,48,14
+    EDITTEXT        IDC_ASSOC_FILENAME,47,10,208,12,ES_AUTOHSCROLL | 
+                    ES_READONLY | NOT WS_BORDER
+    LTEXT           "Language:",DID_NULL,6,26,40,8
+    LTEXT           "Format:",DID_NULL,6,62,40,8
+    LTEXT           "Saved:",DID_NULL,5,78,24,8
+    LTEXT           "",IDC_ASSOC_SAVED,47,78,119,10
+    LTEXT           "Size:",DID_NULL,5,94,25,10
+    LTEXT           "",IDC_ASSOC_SIZE,47,94,125,10
+    LTEXT           "File name:",DID_NULL,6,10,35,10
+END
+
+FORMATDLGORD31XX DIALOG DISCARDABLE  13, 54, 196, 96
+STYLE DS_MODALFRAME | DS_3DLOOK | DS_CONTEXTHELP | WS_POPUP | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "Font"
+FONT 8, "MS Shell Dlg"
+BEGIN
+    LTEXT           "&Font:",1088,7,7,40,9
+    COMBOBOX        1136,7,16,98,76,CBS_SIMPLE | CBS_OWNERDRAWFIXED | 
+                    CBS_AUTOHSCROLL | CBS_SORT | CBS_HASSTRINGS | 
+                    CBS_DISABLENOSCROLL | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Font st&yle:",1089,110,7,44,9,NOT WS_VISIBLE
+    COMBOBOX        1137,110,16,62,76,CBS_SIMPLE | CBS_DISABLENOSCROLL | NOT 
+                    WS_VISIBLE | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "&Size:",1090,110,7,30,9
+    COMBOBOX        1138,110,16,27,76,CBS_SIMPLE | CBS_OWNERDRAWFIXED | 
+                    CBS_SORT | CBS_HASSTRINGS | CBS_DISABLENOSCROLL | 
+                    WS_VSCROLL | WS_TABSTOP
+    DEFPUSHBUTTON   "OK",IDOK,143,16,45,14,WS_GROUP
+    PUSHBUTTON      "Cancel",IDCANCEL,143,32,45,14,WS_GROUP
+    PUSHBUTTON      "&Apply",1026,143,48,45,14,WS_GROUP
+    PUSHBUTTON      "&Help",1038,143,64,45,14,WS_GROUP
+    GROUPBOX        "Effects",1072,7,97,98,72,WS_GROUP
+    CONTROL         "Stri&keout",1040,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,
+                    13,110,49,10
+    CONTROL         "&Underline",1041,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,
+                    13,123,51,10
+    LTEXT           "&Color:",1091,13,136,30,9
+    COMBOBOX        1139,13,146,82,100,CBS_DROPDOWNLIST | CBS_OWNERDRAWFIXED | 
+                    CBS_AUTOHSCROLL | CBS_HASSTRINGS | WS_BORDER | 
+                    WS_VSCROLL | WS_TABSTOP
+    GROUPBOX        "Sample",1073,110,97,94,43,WS_GROUP
+    CTEXT           "AaBbYyZz",1092,118,111,77,23,SS_NOPREFIX | NOT 
+                    WS_VISIBLE
+    LTEXT           "",1093,7,176,196,20,SS_NOPREFIX | NOT WS_GROUP
+    LTEXT           "Sc&ript:",1094,110,147,30,9
+    COMBOBOX        1140,110,157,94,30,CBS_DROPDOWNLIST | CBS_OWNERDRAWFIXED | 
+                    CBS_AUTOHSCROLL | CBS_HASSTRINGS | WS_BORDER | 
+                    WS_VSCROLL | WS_TABSTOP
+END
+
+FORMATDLGORD31XX1 DIALOG DISCARDABLE  13, 54, 217, 85
+STYLE DS_MODALFRAME | DS_3DLOOK | DS_CONTEXTHELP | WS_POPUP | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "Page Setup"
+FONT 8, "MS Shell Dlg"
+BEGIN
+    LTEXT           "&Font:",1088,7,46,19,9
+    COMBOBOX        1136,31,44,115,64,CBS_DROPDOWNLIST | CBS_OWNERDRAWFIXED | 
+                    CBS_AUTOHSCROLL | CBS_SORT | CBS_HASSTRINGS | 
+                    CBS_DISABLENOSCROLL | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Font st&yle:",1089,212,155,44,9,NOT WS_VISIBLE
+    COMBOBOX        1137,210,168,62,76,CBS_SIMPLE | CBS_DISABLENOSCROLL | 
+                    NOT WS_VISIBLE | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "&Size:",1090,155,46,20,9
+    COMBOBOX        1138,178,44,33,64,CBS_DROPDOWNLIST | CBS_OWNERDRAWFIXED | 
+                    CBS_SORT | CBS_HASSTRINGS | CBS_DISABLENOSCROLL | 
+                    WS_VSCROLL | WS_TABSTOP
+    DEFPUSHBUTTON   "OK",IDOK,111,65,48,14,WS_GROUP
+    PUSHBUTTON      "Cancel",IDCANCEL,163,65,48,14,WS_GROUP
+    PUSHBUTTON      "&Apply",1026,283,163,45,14,WS_GROUP
+    PUSHBUTTON      "&Help",1038,283,179,45,14,WS_GROUP
+    GROUPBOX        "Effects",1072,5,155,98,72,WS_GROUP
+    CONTROL         "Stri&keout",1040,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,
+                    11,168,49,10
+    CONTROL         "&Underline",1041,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,
+                    11,181,51,10
+    LTEXT           "&Color:",1091,11,194,30,9
+    COMBOBOX        1139,11,204,82,100,CBS_DROPDOWNLIST | CBS_OWNERDRAWFIXED | 
+                    CBS_AUTOHSCROLL | CBS_HASSTRINGS | WS_BORDER | 
+                    WS_VSCROLL | WS_TABSTOP
+    GROUPBOX        "Sample",1073,108,155,94,43,WS_GROUP
+    CTEXT           "AaBbYyZz",1092,116,169,77,23,SS_NOPREFIX | NOT 
+                    WS_VISIBLE
+    LTEXT           "",1093,5,234,196,20,SS_NOPREFIX | NOT WS_GROUP
+    LTEXT           "Sc&ript:",1094,108,205,30,9
+    COMBOBOX        1140,108,215,94,30,CBS_DROPDOWNLIST | CBS_OWNERDRAWFIXED | 
+                    CBS_AUTOHSCROLL | CBS_HASSTRINGS | WS_BORDER | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Left Margin:",DID_NULL,7,10,39,8
+    EDITTEXT        IDC_PAGESETUP_LEFTMARGIN,50,8,24,12,ES_AUTOHSCROLL
+    CONTROL         "Print Syntax Coloring",IDC_PAGESETUP_SYNTAXCOLOR,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,7,27,89,10
+    LTEXT           "(millimeters)",DID_NULL,79,10,40,10
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    "FILEDLG", DIALOG
+    BEGIN
+        RIGHTMARGIN, 254
+        BOTTOMMARGIN, 59
+    END
+
+    "FILLDLG", DIALOG
+    BEGIN
+        BOTTOMMARGIN, 62
+    END
+
+    "FINDDLG", DIALOG
+    BEGIN
+        BOTTOMMARGIN, 84
+    END
+
+    "REPLACEDLG", DIALOG
+    BEGIN
+        BOTTOMMARGIN, 100
+    END
+
+    "COLORDLG", DIALOG
+    BEGIN
+        RIGHTMARGIN, 228
+        BOTTOMMARGIN, 108
+    END
+
+    "BOOKMARKS", DIALOG
+    BEGIN
+        BOTTOMMARGIN, 134
+    END
+
+    "GOTOFILEDLG", DIALOG
+    BEGIN
+        BOTTOMMARGIN, 134
+    END
+
+    "FORMATOPTIONSDLG", DIALOG
+    BEGIN
+        RIGHTMARGIN, 114
+        BOTTOMMARGIN, 78
+    END
+
+    "FILEOPTIONS", DIALOG
+    BEGIN
+        RIGHTMARGIN, 238
+        BOTTOMMARGIN, 111
+    END
+
+    "EDITOPTIONS", DIALOG
+    BEGIN
+        RIGHTMARGIN, 175
+        BOTTOMMARGIN, 119
+    END
+
+    "FILEPROPERTIES", DIALOG
+    BEGIN
+        RIGHTMARGIN, 176
+        BOTTOMMARGIN, 114
+    END
+
+    "FORMATDLGORD31XX1", DIALOG
+    BEGIN
+        RIGHTMARGIN, 194
+        BOTTOMMARGIN, 51
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+CEWICON                 ICON    DISCARDABLE     "cedw.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+CTXMENU MENU DISCARDABLE 
+BEGIN
+    POPUP "&Edit"
+    BEGIN
+        MENUITEM "&Undo",                       IDM_EDIT_UNDO, GRAYED
+        MENUITEM "&Redo",                       IDM_EDIT_REDO, GRAYED
+        MENUITEM SEPARATOR
+        MENUITEM "Cu&t",                        IDM_EDIT_CUT
+        MENUITEM "&Copy",                       IDM_EDIT_COPY
+        MENUITEM "&Paste",                      IDM_EDIT_PASTE
+        MENUITEM "&Block Paste",                IDM_EDIT_PASTEBLOCK
+        MENUITEM "&Delete",                     IDM_EDIT_DELETE
+        MENUITEM "Select &All",                 IDM_EDIT_SELALL
+        MENUITEM SEPARATOR
+        MENUITEM "Up Cas&e Selection",          IDM_EDIT_UPCASE
+        MENUITEM "&Down Case Selection",        IDM_EDIT_LOCASE
+        MENUITEM "&Invert Case Selection",      IDM_EDIT_INVERTCASE
+        MENUITEM SEPARATOR
+        MENUITEM "&Properties...",              IDM_VIEW_PROPERTIES
+    END
+END
+
+CEWMENU MENU DISCARDABLE 
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "&New",                        IDM_FILE_NEW
+        MENUITEM "&Open...\tF4",                IDM_FILE_OPEN
+        MENUITEM "&Close\tCtrl+F4",             IDM_FILE_CLOSE
+        MENUITEM "&Save\tF12",                  IDM_FILE_SAVE
+        MENUITEM "Save &As...\tShft+F12",       IDM_FILE_SAVEAS
+        MENUITEM "Save A&ll",                   IDM_FILE_SAVEALL
+        MENUITEM "&Insert...",                  IDM_FILE_MERGE
+        MENUITEM "&Reload",                     IDM_FILE_RELOAD
+        MENUITEM SEPARATOR
+        MENUITEM "&Print...\tCtrl+P",           IDM_FILE_PRINT
+        MENUITEM "Print Setup..",               IDM_FILE_PRINTSETUP
+        MENUITEM "Page Set&up...",              IDM_FILE_PAGESETUP
+        MENUITEM SEPARATOR
+        MENUITEM "Clos&e All",                  IDM_FILE_CLOSEALL
+        MENUITEM "E&xit\tAlt+F4",               IDM_FILE_EXIT
+    END
+    POPUP "&Edit"
+    BEGIN
+        MENUITEM "&Undo\tCtrl+Z",               IDM_EDIT_UNDO, GRAYED
+        MENUITEM "&Redo\tCtrl+Y",               IDM_EDIT_REDO, GRAYED
+        MENUITEM SEPARATOR
+        MENUITEM "Cu&t\tCtrl+X",                IDM_EDIT_CUT
+        MENUITEM "&Copy\tCtrl+C",               IDM_EDIT_COPY
+        MENUITEM "&Paste\tCtrl+V",              IDM_EDIT_PASTE
+        MENUITEM "&Block Paste\tCtrl+W",        IDM_EDIT_PASTEBLOCK
+        MENUITEM "&Delete\tDel",                IDM_EDIT_DELETE
+        MENUITEM "Select &All\tCtrl+A",         IDM_EDIT_SELALL
+        MENUITEM SEPARATOR
+        POPUP "&Selection"
+        BEGIN
+            MENUITEM "&Fill/Set...\tCtrl+E",        IDM_EDIT_FILL
+            MENUITEM SEPARATOR
+            MENUITEM "Up Cas&e\tCtrl+U",            IDM_EDIT_UPCASE
+            MENUITEM "&Down Case\tCtrl+D",          IDM_EDIT_LOCASE
+            MENUITEM "&Invert Case\tCtrl+I",        IDM_EDIT_INVERTCASE
+            MENUITEM SEPARATOR
+            MENUITEM "Tab\tTab",                    IDM_EDIT_TAB
+            MENUITEM "Un-Tab\tShft+Tab",            IDM_EDIT_UNTAB
+            MENUITEM SEPARATOR
+            MENUITEM "Space\tSpace",                IDM_EDIT_SPACE
+            MENUITEM "Un-Space\tShft+Space",        IDM_EDIT_UNSPACE
+        END
+    END
+    POPUP "&Search"
+    BEGIN
+        MENUITEM "&Find...\tCtrl+F",            IDM_SEARCH_FIND
+        MENUITEM "Find &Next\tF3",              IDM_SEARCH_NEXT
+        MENUITEM "Find &Previous\tShft+F3",     IDM_SEARCH_PREV
+        MENUITEM SEPARATOR
+        MENUITEM "&Replace...\tCtrl+R",         IDM_SEARCH_REPLACE
+        MENUITEM SEPARATOR
+        MENUITEM "&Go To...\tCtrl+G",           IDM_SEARCH_GOTOLINE
+        MENUITEM "&Last Modified\tCtrl+M",      IDM_SEARCH_LASTEDIT
+        MENUITEM SEPARATOR
+        MENUITEM "&Match Bracket\tCtrl+]",      IDM_SEARCH_BRACE
+        MENUITEM SEPARATOR
+        POPUP "&Bookmarks"
+        BEGIN
+            MENUITEM "&Set Bookmark\tCtrl+F2",      IDM_SEARCH_SETBOOKMARK
+            MENUITEM "&Next Bookmark\tF2",          IDM_SEARCH_NEXTBOOKMARK
+            MENUITEM "&Previous Bookmark\tShft+F2", IDM_SEARCH_PREVBOOKMARK
+            MENUITEM "&Clear Bookmarks",            IDM_SEARCH_CLEARBOOKMARKS
+
+        END
+    END
+    POPUP "&View"
+    BEGIN
+        MENUITEM "File/Member &Tree\tCtrl+T",   IDM_VIEW_FILELIST
+        MENUITEM "&List/Update Members\tCtrl+L", IDM_VIEW_MEMBERS
+        MENUITEM SEPARATOR
+        MENUITEM "&Bookmarks...\tCtrl+B",       IDM_SEARCH_BOOKMARKS
+        MENUITEM SEPARATOR
+        MENUITEM "&Properties...\tAlt+Enter",   IDM_VIEW_PROPERTIES
+    END
+    POPUP "&Tools"
+    BEGIN
+        MENUITEM "&Record Macro\tCtrl+Shft+Q",  IDM_EDIT_RECMACRO
+        MENUITEM "&Play Macro\tCtrl+Q",         IDM_EDIT_PLAYMACRO
+        MENUITEM "&Options...",                 IDM_OPTIONS
+    END
+    POPUP "&Window"
+    BEGIN
+        MENUITEM "&Recent\tCtrl+Tab",           IDM_FILE_RECENT
+        MENUITEM "&Previous\tCtrl+PgUp",        IDM_FILE_PREV
+        MENUITEM "&Next\tCtrl+PgDn",            IDM_FILE_NEXT
+        MENUITEM "&Files...",                   IDM_FILE_GOTO
+    END
+    POPUP "&Help"
+    BEGIN
+        MENUITEM "&Keyboard Map...",            IDM_HELP_KEYS
+        MENUITEM "Key&word...\tF1",             IDM_HELP_KEYWORD
+        MENUITEM SEPARATOR
+        MENUITEM "&Product Info",               IDM_HELP_PRODINFO
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Data
+//
+
+DLGINCLUDE RCDATA DISCARDABLE 
+BEGIN
+    "CEDW.H\0"
+END
+
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define APSTUDIO_HIDDEN_SYMBOLS\r\n"
+    "#include ""windows.h""\r\n"
+    "#undef APSTUDIO_HIDDEN_SYMBOLS\r\n"
+    "#include ""cedw.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_FUNC_C              BITMAP  DISCARDABLE     "c_func.bmp"
+IDB_FOLDER_OPEN         BITMAP  DISCARDABLE     "folder_open.bmp"
+IDB_FOLDER_CLOSED       BITMAP  DISCARDABLE     "folder_closed.bmp"
+IDB_FILE                BITMAP  DISCARDABLE     "file.bmp"
+IDB_FUNC_C_UNSEL        BITMAP  DISCARDABLE     "c_func2.bmp"
+IDB_ORA_FUNC            BITMAP  DISCARDABLE     "ora_func.bmp"
+IDB_ORA_PACKAGE         BITMAP  DISCARDABLE     "ora_package.bmp"
+IDB_ORA_PROC            BITMAP  DISCARDABLE     "ora_proc.bmp"
+IDB_ORA_TABLE           BITMAP  DISCARDABLE     "ora_table.bmp"
+IDB_C_CLASS             BITMAP  DISCARDABLE     "c_class.bmp"
+IDB_JAVA_FUNC_PRIVATE   BITMAP  DISCARDABLE     "java_func1.bmp"
+IDB_JAVA_FUNC_PUBLIC    BITMAP  DISCARDABLE     "java_func.bmp"
+IDB_JAVA_CLASS          BITMAP  DISCARDABLE     "java_class.bmp"
+IDB_JAVA_FUNC_PROTECTED BITMAP  DISCARDABLE     "java_func2.bmp"
+IDB_INTERFACE           BITMAP  DISCARDABLE     "interface.bmp"
+IDB_ORA_TRIGGER         BITMAP  DISCARDABLE     "ora_trigger.bmp"
+IDB_ORA_VIEW            BITMAP  DISCARDABLE     "ora_view.bmp"
+IDB_MSSQL_PROC          BITMAP  DISCARDABLE     "mssql_proc.bmp"
+IDB_MSSQL_TABLE         BITMAP  DISCARDABLE     "mssql_table.bmp"
+IDB_MSSQL_VIEW          BITMAP  DISCARDABLE     "mssql_view.bmp"
+IDB_MSSQL_TRIGGER       BITMAP  DISCARDABLE     "mssql_trigger.bmp"
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 7,40,84,0
+ PRODUCTVERSION 7,40,84,0
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x40004L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "1c0904b0"
+        BEGIN
+            VALUE "Comments", "\0"
+            VALUE "CompanyName", "Coert van der Walt\0"
+            VALUE "FileDescription", "cedw32\0"
+            VALUE "FileVersion", "7, 40, 84, 0\0"
+            VALUE "InternalName", "cedw32\0"
+            VALUE "LegalCopyright", "Copyright © 1995 - 2002 Coert van der Walt\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "cedw32.exe\0"
+            VALUE "PrivateBuild", "\0"
+            VALUE "ProductName", "C-edit\0"
+            VALUE "ProductVersion", "7, 40, 84, 0\0"
+            VALUE "SpecialBuild", "\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x1c09, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    30000                   "Help\tF1"
+    30001                   "Keyword Help\tShift+F1"
+    30002                   "Menu\tF10"
+    30003                   "File New\tCtrl+N"
+    30004                   "File Open\tCtrl+O  or F4"
+    30005                   "File Close\tCtrl+F4"
+    30006                   "File Save\tCtrl+S  or F12"
+    30007                   "File Save As\tShft+F12"
+    30008                   "Exit\tAlt+F4"
+    30009                   "Undo\tCtrl+Z (or Alt+Backspace)"
+    30010                   "Redo\tCtrl+Y"
+    30011                   "Cut Selection to Clipboard\tCtrl+X (or Shift+Del), Ctrl+(1-9)+X for clipboards 1 to 9"
+    30012                   "Copy Selection to Clipboard\tCtrl+C (or Ctrl+Ins), Ctrl+(1-9)+C"
+    30013                   "Paste Clipboard\tCtrl+V (or Shift+Ins), Ctrl+(1-9)+V"
+    30014                   "Block Paste Clipboard\tCtrl+W, Ctrl+(1-9)+W"
+    30015                   "Set or Fill Selection\tCtrl+E  (Fill if only one character specified)"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    30016                   "Up Case Selection\tCtrl+U"
+    30017                   "Down Case Selection\tCtrl+D"
+    30018                   "Invert Case Selection\tCtrl+I"
+    30019                   "Play Macro\tCtrl+Q"
+    30020                   "Record Macro\tCtrl+Shift+Q"
+    30021                   "Find\tCtrl+F  or Alt+F3"
+    30022                   "Replace\tCtrl+R  (MS key is Ctrl+H)"
+    30023                   "Find Next\tF3"
+    30024                   "Find Prev\tShift+F3"
+    30025                   "Find Next Selected\tCtrl+F3"
+    30026                   "Find Previous Selected\tCtrl+Shift+F3"
+    30027                   "Match Brace\tCtrl+[  or Ctrl+]"
+    30028                   "Goto Line / File\tCtrl+G"
+    30029                   "Bookmarks\tCtrl+B"
+    30030                   "Next Bookmark\tF2"
+    30031                   "Prev Bookmark\tShft+F2"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    30032                   "Set Bookmark\tCtrl+F2"
+    30033                   "Goto File 1-9\tAlt+1 - Alt+9"
+    30034                   "New Line\tEnter"
+    30035                   "New Line at Line End\tCtrl+Enter"
+    30036                   "Unselect\tEsc"
+    30037                   "Tab (Selection)\tTab"
+    30038                   "Reverse Tab Selection\tShift+Tab"
+    30039                   "Move Selection Right\tSpace"
+    30040                   "Move Selection Left\tShift+Space"
+    30041                   "Backspace\tBackSpace"
+    30042                   "Delete Line\tCtrl+Backspace"
+    30043                   "Insert/Replace Mode\tInsert"
+    30044                   "Delete (Selection)\tDelete"
+    30045                   "Goto Line Begin\tHome"
+    30046                   "Goto Line End\tEnd"
+    30047                   "File Begin\tCtrl+Home"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    30048                   "File End\tCtrl+End"
+    30049                   "Previous File\tCtrl+Page Up"
+    30050                   "Next File\tCtrl+Page Down"
+    30051                   "Most Recent File(s)\tCtrl+Tab  or Ctrl+F6"
+    30052                   "Word Right\tCtrl+Right"
+    30053                   "Word Left\tCtrl+Left"
+    30054                   "Scroll Up\tCtrl+Up"
+    30055                   "Scroll Down\tCtrl+Down"
+    30056                   "Select Right\tShift+Right  (Right/Left and Up/Down for Block Select)"
+    30057                   "Select Left\tShift+Left"
+    30058                   "Select Up\tShift+Up"
+    30059                   "Select Down\tShift+Down"
+    30060                   "Select to Line Begin\tShift+Home"
+    30061                   "Select to Line End\tShift+End"
+    30062                   "Select Page Up\tShift+Page Up"
+    30063                   "Select Page Down\tShift+Page Down"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    30064                   "Select Word Left\tShift+Ctrl+Left"
+    30065                   "Select Word Right\tShift+Ctrl+Right"
+    30066                   "Goto Last Edit Position\tCtrl+M"
+    30067                   "File/Member Tree On/Off\tCtrl+T"
+    30068                   "File/Member Tree Select \tCtrl+Shift+Tab"
+    30069                   "List/Update Tree Members\tCtrl+L"
+    30070                   "File Properties\tAlt+Enter"
+END
+
+#endif    // English (U.S.) (unknown sub-lang: 0x7) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
